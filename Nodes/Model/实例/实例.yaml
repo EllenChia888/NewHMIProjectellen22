@@ -12,3 +12,14 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+- Name: 电机2
+  Type: 电机1
+  Children:
+  - Name: 速度
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 加速度
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

@@ -1,0 +1,14 @@
+Name: 实例
+Type: FolderType
+Children:
+- Name: 电机1
+  Type: 电机
+  Children:
+  - Name: 速度
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 加速度
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
